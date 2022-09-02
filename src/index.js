@@ -1,6 +1,10 @@
-import { saludar } from './js/componentes'
+import { Todo, TodoList } from './classes'
+import { crearTodoHtml } from './js/componentes'
 import './styles.css'
 
-const nombre = 'Juan'
+export const todoList = new TodoList()
+const tarea = new Todo('Aprender JavaScript')
 
-saludar(nombre)
+todoList.nuevoTodo(tarea)
+
+crearTodoHtml(tarea)
