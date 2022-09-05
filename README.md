@@ -1,6 +1,6 @@
-# Webpack starter
+# App de tareas
 
-Proyecto inicial para crear apps usando Webpack.
+App para crear, completar y eleminiar tareas.
 
 ### Notas:
 
